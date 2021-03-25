@@ -1,0 +1,28 @@
+
+<div class="card"  class="card-position" *ngFor="let etudiant of servEtu.listeEtudiants; let i=index ">
+  <a  routerLink="/etudiant/{{i}}"> 
+
+   <img class="card-img-top" [src]="etudiant.photo"  alt="Card image"> 
+   
+    </a>
+  
+  <div class="card-body">
+    <h4> {{etudiant.nom}} {{etudiant.prenom}} </h4>
+    <p><em>{{etudiant.promo}}</em></p>
+     <a routerLink="/etudiant/{{i}}"  class="btn btn-primary">Editer</a>
+   <p></p>
+  </div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+

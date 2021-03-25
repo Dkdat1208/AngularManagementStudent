@@ -1,0 +1,31 @@
+
+      <div class="main" style="margin-bottom:400px">
+         <div class="col-md-6 col-sm-12">
+            <div class="login-form">
+               <form #f="ngForm" (ngSubmit)="OnsendConnect()">
+
+                  <div class="form-group">
+                     <label>Identifiant</label>
+                     <input [(ngModel)]="u.id"  type="text" name="id" class="form-control"    placeholder="identifiant" required>
+                  </div>
+
+                  <div class="form-group">
+                     <label>Password</label>
+                     <input [(ngModel)]="u.mdp"  type="password" name="mdp" class="form-control"   placeholder="password" required>
+                  </div>
+
+                
+                  <button type="submit" class="btn btn-success mr-4">ENVOYER</button>
+                  
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+
+                  <button type="reset" class="btn btn-danger">ANNULER</button>
+
+
+               </form>
+            </div>
+         </div>
+      </div>

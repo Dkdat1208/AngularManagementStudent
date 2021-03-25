@@ -1,0 +1,13 @@
+{
+
+    "nom":"test",
+    "prenom":"toto",
+    "age":"22",
+    "promo" : "ING3",
+    "specialite":["ICC"],
+    "mail":"test@eisti.eu",
+    "photo":"img.jpg" ,
+    "statut" : 1,
+    "token": "jesuisletoken"
+
+}

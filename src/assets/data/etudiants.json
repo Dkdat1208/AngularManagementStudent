@@ -1,0 +1,24 @@
+ [
+    {
+      "nom":"Deogracia",
+      "prenom":"DILOU",
+      "promo":"ING3/ICC",
+      "specialite":["plein"],
+      "mail":"diloukounk@eisti.fr",
+      "age": 23,
+      "photo":"/assets/img/img1.jpeg"
+      
+    },
+
+    {
+      "nom":"Hugo",
+      "prenom":"blin",
+      "promo":"ING3/ICC",
+      "specialite":["plein"],
+      "mail":"hb@eisti.fr",
+      "age": 20,
+      "photo":"/assets/img/img2.png"
+      
+    }
+  ]
+

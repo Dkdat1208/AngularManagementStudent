@@ -1,0 +1,27 @@
+<section>
+            <h3> Editer un etudiant </h3>
+
+            <form style="margin-left: 50px;">
+                  <p class="secondary">Nom</p>
+                    <input [(ngModel)]="etudiant.nom" name="nom"  type="text" required>
+                    <p class="secondary">Prenom</p>
+                    <input name="prenom" [(ngModel)]="etudiant.prenom" type="text" required>
+                    <p class="secondary">Email</p>
+                    <input name="mail" [(ngModel)]="etudiant.mail" type="mail" required>
+                    <p class="secondary">Age</p>
+                    <input name="age" [(ngModel)]="etudiant.age">
+                    <p class="secondary">photo</p>
+                    <input name="photo" [(ngModel)]="etudiant.photo" type="text" required>
+                    <p class="secondary">Promo</p>
+                    <input name="promo" [(ngModel)]="etudiant.promo" type="text" required>
+                    <p class="secondary">Sprecialité</p>
+                    <input name="specialite" [(ngModel)]="etudiant.specialite" required>
+            </form>
+
+            
+
+            <button  (click)="majEtudiant()" type="submit" class="btn btn-success mt-4 ml-5">Mettre à jour</button>
+            <button (click)="annuleMaj()" type="reset" class="btn btn-danger ml-2">Annuler</button>
+</section>
+<!-- formulaire d'edtion-->
+
